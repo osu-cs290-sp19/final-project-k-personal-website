@@ -1,0 +1,18 @@
+<div class="comment-input-body">
+	<form method="POST" action="/handler">
+		{{!-- comment text box --}}
+		<div class="comment-input-element author-input">
+			<input required type="text" name="author" placeholder="Your name" /> <br />
+		</div>
+
+		{{!-- comment author box --}}
+		<div class="comment-input-element message-input">
+			<textarea required type="text" name="text" placeholder="Your message"> </textarea> <br />
+		</div>
+
+		{{!-- comment submit button --}}
+		<div class="comment-button">
+			<input type="submit" />
+		</div>
+	</form>
+</div>
